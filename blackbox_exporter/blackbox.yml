@@ -18,7 +18,7 @@ modules:
     dns:
       transport_protocol: "tcp"
       preferred_ip_protocol: ip4
-      quert_name: "www.google.com"
+      query_name: "www.google.com"
   http_post_2xx:
     prober: http
     http:
